@@ -89,6 +89,7 @@ TODO         text
 *.tmpl       text
 *.tpl        text
 *.twig       text
+*.pug        text
 
 ## LINTERS
 .babelrc      text
