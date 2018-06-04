@@ -5,5 +5,5 @@ $(document).ready(() => {
     }, 700, function () {
       $(".curtain").css("display", "none")
     });
-  }, 500);
+  }, 700);
 })
