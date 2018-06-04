@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('move:server');
 var https = require('https');
+const fs = require("fs");
 
 const options = {
   cert: fs.readFileSync('../sslcert/fullchain.pem'),
