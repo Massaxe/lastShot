@@ -105,7 +105,8 @@ p {
 }
 
 body {
-    font-family: "Futura PT", sans-serif !important;
+    font-family: "futura-pt",sans-serif !important;
+    
     font-size: 18px;
     color: #fff
 }
