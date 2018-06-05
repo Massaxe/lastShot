@@ -14,9 +14,6 @@ head
     |   
     link(rel='apple-touch-icon', href='icon.png')
     // Place favicon.ico in the root directory
-    link(rel='stylesheet', href='css/normalize.css')
-    |   
-    link(rel='stylesheet', href='css/main.css')
   body
     //if lte IE 9
       p.browserupgrade
@@ -58,6 +55,9 @@ head
           i.fas.fa-envelope
           |         gabriel@landim.se
     |   
+    link(rel='stylesheet', href='css/normalize.css')
+    |   
+    link(rel='stylesheet', href='css/main.min.css')
     script(src='js/vendor/modernizr-3.6.0.min.js')
     |   
     script(src='https://code.jquery.com/jquery-3.3.1.min.js', integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=', crossorigin='anonymous')
@@ -67,9 +67,9 @@ head
     script.
       window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\\/script>')
     |   
-    script(src='js/plugins.js')
+    script(async src='js/plugins.js')
     |   
-    script(src='js/main.js')
+    script(async src='js/main.js')
     |   
     script(defer='', src='https://use.fontawesome.com/releases/v5.0.13/js/all.js', integrity='sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe', crossorigin='anonymous')
     // Google Analytics: change UA-XXXXX-Y to be your site's ID.
